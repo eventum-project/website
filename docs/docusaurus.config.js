@@ -9,10 +9,10 @@ const config = {
   favicon: 'img/favicon.ico',
 
   url: 'https://Eventum-Generatives.github.io',
-  baseUrl: '/Documentation/',
+  baseUrl: '/',
 
   organizationName: 'Eventum-Generatives',
-  projectName: 'Documentation',
+  projectName: 'Website',
   deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
