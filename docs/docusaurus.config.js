@@ -8,8 +8,8 @@ const config = {
   tagline: 'Flexible event generator',
   favicon: 'img/favicon.ico',
 
-  url: 'https://rnv812.github.io',
-  baseUrl: '/Eventum/',
+  url: 'https://Eventum-Generatives.github.io',
+  baseUrl: '/Documentation/',
 
   organizationName: 'Eventum-Generatives',
   projectName: 'Documentation',
