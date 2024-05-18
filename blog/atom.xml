@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://rnv812.github.io/Eventum/blog</id>
+    <id>https://Eventum-Generatives.github.io/Documentation/blog</id>
     <title>Eventum Blog</title>
     <updated>2024-05-10T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://rnv812.github.io/Eventum/blog"/>
+    <link rel="alternate" href="https://Eventum-Generatives.github.io/Documentation/blog"/>
     <subtitle>Eventum Blog</subtitle>
-    <icon>https://rnv812.github.io/Eventum/img/favicon.ico</icon>
+    <icon>https://Eventum-Generatives.github.io/Documentation/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
-        <id>https://rnv812.github.io/Eventum/blog/welcome</id>
-        <link href="https://rnv812.github.io/Eventum/blog/welcome"/>
+        <id>https://Eventum-Generatives.github.io/Documentation/blog/welcome</id>
+        <link href="https://Eventum-Generatives.github.io/Documentation/blog/welcome"/>
         <updated>2024-05-10T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Welcome to Eventum Blog! News about Eventum will be posted here.]]></summary>
         <content type="html"><![CDATA[<p>Welcome to Eventum Blog! News about Eventum will be posted here.</p>]]></content>
