@@ -11,8 +11,8 @@ const config = {
   url: 'https://rnv812.github.io',
   baseUrl: '/Eventum/',
 
-  organizationName: 'rnv812',
-  projectName: 'Eventum',
+  organizationName: 'Eventum-Generatives',
+  projectName: 'Documentation',
   deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
