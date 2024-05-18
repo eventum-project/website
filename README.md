@@ -1,2 +1,2 @@
 # Website
-Eventum Generatives Website
+Eventum Website
