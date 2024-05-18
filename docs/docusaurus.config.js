@@ -71,7 +71,7 @@ const config = {
           },
           {
             position: 'right',
-            href: 'https://github.com/rnv812/Eventum',
+            href: 'https://github.com/Eventum-Generatives/EventumCore',
             className: 'header-github-link',
             'aria-label': 'GitHub repository',
           },
