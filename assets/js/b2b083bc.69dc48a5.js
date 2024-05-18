@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[659],{4564:e=>{e.exports=JSON.parse('{"tags":[{"label":"welcome","permalink":"/Eventum/blog/tags/welcome","count":1}]}')}}]);
