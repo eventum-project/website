@@ -9,7 +9,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   url: 'https://Eventum-Generatives.github.io',
-  baseUrl: '/',
+  baseUrl: '/Documentation/',
 
   organizationName: 'Eventum-Generatives',
   projectName: 'Documentation',
