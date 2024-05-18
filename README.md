@@ -1,2 +1,2 @@
-# Documentation
-Documentation website for Eventum
+# Website
+Eventum Generatives Website
