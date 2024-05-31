@@ -17,8 +17,9 @@
   --ifm-background-color: #fff;
   --ifm-footer-background-color: #ebedf0;
 
-  --ifm-navbar-search-input-placeholder-color: --ifm-color-content;
+  --ifm-navbar-search-input-placeholder-color: var(--ifm-color-content);
   --ifm-navbar-search-input-background-color: #d4d5d8;
+  --docusaurus-highlighted-code-line-bg: var(--ifm-color-primary-lightest);
 }
 
 [data-theme='dark'] {
@@ -27,6 +28,7 @@
   --ifm-footer-background-color: #252526;
 
   --ifm-navbar-search-input-background-color: #3a3a3b;
+  --docusaurus-highlighted-code-line-bg: var(--ifm-color-primary-darkest);
 }
 
 .header-github-link::before {
