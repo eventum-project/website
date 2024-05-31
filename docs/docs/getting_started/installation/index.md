@@ -8,8 +8,8 @@ Supported platforms are **Windows**, **Linux** and **MacOS**.
 
 ## Components
 Eventum includes next components:
-- Eventum CLI - command line interface for running the generator
-- Eventum Studio - web application for content designing 
+- **Eventum CLI** - command line interface for running the generator
+- **Eventum Studio** - web application for content designing 
 
 ## Installation
 
