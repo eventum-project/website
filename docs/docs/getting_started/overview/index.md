@@ -112,11 +112,11 @@ Output:
 ```
 
 ### Use modules
-You are able to write any python function and run it from template just referencing to it. For example there is default module named **[`rand`](./index.md)** with different functions for generating random values.
+You are able to write any python function and run it from template just referencing to it using **module** keyword. For example there is default module named **[`rand`](./index.md)** with different functions for generating random values.
 
 ```javascript
 // highlight-next-line
-{% set ip = rand.network.ip_v4() %}
+{% set ip = module.rand.network.ip_v4() %}
 
 {
     "ip": "{{ ip }}"
@@ -140,7 +140,7 @@ class network:
 ...
 ```
 
-The only think you need to do to make this work is to put your python module to `jinja_modules` directory of Jinja event plugin. All modules in this directory are accessible from all templates.
+The only thing you need to do to make this work is to put your python module to `jinja_modules` directory of Jinja event plugin. All modules in this directory are accessible from all templates.
 
 ## Outputting
 ### Send events anywhere
@@ -150,8 +150,19 @@ Direct your generated events with output plugins easily. Use different destinati
 
 **Eventum Studio** is the important part of Eventum that empowers you to develop content such as time distribution configurations and event templates in user friendly way.
 
-Using Eventum Studio you can change parameters and visualize the result on the fly.
+Using Eventum Studio you can change parameters of distributions and visualize the result on the fly.
 ![](./distribution.png)
 
-It's available to edit event templates, render them with pretty highlighting and even debug them by exploring state of render runs. Once you are done with it, you can save your result to file directly from Eventum Studio interface.
+It's available to edit event templates and define configurations for them. 
+![](./rendering_config.png)
+
+Once template is ready you can render it with pretty highlighting to test if the resulting event is constructed properly.
 ![](./rendering.png)
+
+Once you are done with it, you can save template to file directly from Eventum Studio interface.
+
+---
+
+<p align="center">
+    👾 Are you ready to use Eventum? Proceed with installation! 👾
+</p>
