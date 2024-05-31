@@ -78,5 +78,5 @@ poetry shell
 ---
 
 <p align="center">
-    ✨ Now we are ready to run Eventum! ✨
+    🚀 Now we are ready to run Eventum! 🚀
 </p>
