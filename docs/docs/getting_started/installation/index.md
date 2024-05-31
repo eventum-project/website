@@ -60,16 +60,20 @@ Installation using source code requires **[Poetry](https://python-poetry.org/)**
 
 #### Clone the repository
 
-Component repositories:
-- EventumCLI: `https://github.com/Eventum-Generatives/EventumCLI.git`
-- EventumStudio: `https://github.com/Eventum-Generatives/EventumStudio.git`
-
+To clone Eventum CLI repo:
 ```bash
-git clone <repository url>
-cd <repository name>
+git clone https://github.com/Eventum-Generatives/EventumCLI.git
+cd EventumCLI
+```
+
+To clone Eventum Studio repo:
+```bash
+git clone https://github.com/Eventum-Generatives/EventumStudio.git
+cd EventumStudio
 ```
 
 #### Install dependencies
+Install dependencies individually for each project:
 ```bash
 poetry install
 poetry shell
