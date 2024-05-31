@@ -13,7 +13,7 @@ Eventum includes next components:
 
 ## Installation
 
-### Using [PipX](https://pipx.pypa.io/stable/)
+### Using [PipX](https://pipx.pypa.io/stable/) (Recommended)
 
 To install Eventum CLI:
 ```bash

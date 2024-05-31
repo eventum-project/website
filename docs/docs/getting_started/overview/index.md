@@ -34,7 +34,7 @@ With the variety of input plugins you can flexibly adjust when to generate the e
 
 ## Event Templates
 ### Stateful rendering
-In the default event plugin Eventum uses Jinja template engine. With basic use of Jinja, we cannot access variables from previous template renders. But with **[State API](./index.md)** of **Jinja event plugin** it is easy to achieve it.
+In the default event plugin (called **Jinja event plugin**) Eventum uses Jinja template engine. With basic use of Jinja, we cannot access variables from previous template renders. But with **[State API](./index.md)** of **Jinja event plugin** it is easy to achieve it.
 
 Template:
 ```javascript
