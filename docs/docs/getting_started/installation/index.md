@@ -13,7 +13,7 @@ Eventum includes next components:
 
 ## Installation
 
-### Using PipX
+### Using [PipX](https://pipx.pypa.io/stable/)
 
 To install Eventum CLI:
 ```bash
@@ -56,11 +56,11 @@ pip install eventum-studio
 
 ### From source
 
-Installation using source code requires **Poetry** to be installed.
+Installation using source code requires **[Poetry](https://python-poetry.org/)** to be installed.
 
 #### Clone the repository
 
-Repositories:
+Component repositories:
 - EventumCLI: `https://github.com/Eventum-Generatives/EventumCLI.git`
 - EventumStudio: `https://github.com/Eventum-Generatives/EventumStudio.git`
 
