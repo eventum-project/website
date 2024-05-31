@@ -74,3 +74,9 @@ cd <repository name>
 poetry install
 poetry shell
 ```
+
+---
+
+<p align="center">
+    ✨ Now we are ready to run Eventum! ✨
+</p>
