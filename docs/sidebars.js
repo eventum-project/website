@@ -10,6 +10,10 @@ const sidebars = {
     {
       type: 'doc',
       id: 'getting_started/installation/index'
+    },
+    {
+      type: 'doc',
+      id: 'getting_started/first_run/index'
     }
   ],
   pluginsSidebar: [
