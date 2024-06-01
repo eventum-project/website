@@ -6,6 +6,8 @@ Input plugin for generating events at moments defined by cron expression.
 
 ## Parameters
 
+Usage name: `cron`
+
 Supported modes: `live`
 
 <table>
@@ -26,3 +28,11 @@ Supported modes: `live`
         <td>Number of events to generate each interval</td>
     </tr>
 </table>
+
+## Example
+
+```yaml
+cron:
+  expression: "*/5 * * * *"
+  count: 1
+```

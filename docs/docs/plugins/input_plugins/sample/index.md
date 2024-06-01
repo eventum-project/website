@@ -6,6 +6,8 @@ Input plugin for generating specified count of events. Use it when you only need
 
 ## Parameters
 
+Usage name: `sample`
+
 Supported modes: `sample`
 
 <table>
@@ -20,3 +22,10 @@ Supported modes: `sample`
         <td>Number of events to generate</td>
     </tr>
 </table>
+
+## Example
+
+```yaml
+sample:
+  count: 10000
+```

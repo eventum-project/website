@@ -6,6 +6,8 @@ Input plugin for generating specified count of events linearly spaced in time in
 
 ## Parameters
 
+Usage name: `linspace`
+
 Supported modes: `sample`
 
 <table>
@@ -38,3 +40,13 @@ Supported modes: `sample`
         <td>Whether to include end point of interval</td>
     </tr>
 </table>
+
+## Example
+
+```yaml
+linspace:
+  start: "2024-01-01T00:00:00.000Z"
+  end: "2024-01-31T00:00:00.000Z"
+  count: 31
+  endpoint: true
+```
