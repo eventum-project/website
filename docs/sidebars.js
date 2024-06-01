@@ -52,9 +52,34 @@ const sidebars = {
           collapsed: false,
           link: {
             type: 'doc',
-            id: 'plugins/index'
+            id: 'plugins/input_plugins/cron/index'
           },
-          items: []
+          items: [
+            {
+              type: 'doc',
+              id: 'plugins/input_plugins/cron/index'
+            },
+            {
+              type: 'doc',
+              id: 'plugins/input_plugins/linspace/index'
+            },
+            {
+              type: 'doc',
+              id: 'plugins/input_plugins/sample/index'
+            },
+            {
+              type: 'doc',
+              id: 'plugins/input_plugins/time_patterns/index'
+            },
+            {
+              type: 'doc',
+              id: 'plugins/input_plugins/timer/index'
+            },
+            {
+              type: 'doc',
+              id: 'plugins/input_plugins/timestamps/index'
+            },
+          ]
         },
         {
           type: 'category',
@@ -63,9 +88,14 @@ const sidebars = {
           collapsed: false,
           link: {
             type: 'doc',
-            id: 'plugins/index'
+            id: 'plugins/event_plugins/jinja/index'
           },
-          items: []
+          items: [
+            {
+              type: 'doc',
+              id: 'plugins/event_plugins/jinja/index'
+            },
+          ]
         },
         {
           type: 'category',
@@ -74,9 +104,22 @@ const sidebars = {
           collapsed: false,
           link: {
             type: 'doc',
-            id: 'plugins/index'
+            id: 'plugins/output_plugins/file/index'
           },
-          items: []
+          items: [
+            {
+              type: 'doc',
+              id: 'plugins/output_plugins/file/index'
+            },
+            {
+              type: 'doc',
+              id: 'plugins/output_plugins/opensearch/index'
+            },
+            {
+              type: 'doc',
+              id: 'plugins/output_plugins/stdout/index'
+            },
+          ]
         },
       ]
     },
