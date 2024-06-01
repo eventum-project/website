@@ -50,10 +50,6 @@ const sidebars = {
           label: 'Input plugins',
           collapsible: true,
           collapsed: false,
-          link: {
-            type: 'doc',
-            id: 'plugins/input_plugins/cron/index'
-          },
           items: [
             {
               type: 'doc',
@@ -86,10 +82,6 @@ const sidebars = {
           label: 'Event plugins',
           collapsible: true,
           collapsed: false,
-          link: {
-            type: 'doc',
-            id: 'plugins/event_plugins/jinja/index'
-          },
           items: [
             {
               type: 'doc',
@@ -102,10 +94,6 @@ const sidebars = {
           label: 'Output plugins',
           collapsible: true,
           collapsed: false,
-          link: {
-            type: 'doc',
-            id: 'plugins/output_plugins/file/index'
-          },
           items: [
             {
               type: 'doc',
