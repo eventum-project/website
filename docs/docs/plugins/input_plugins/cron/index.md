@@ -15,7 +15,7 @@ Supported modes: `live`
     <th>Description</th>
     <tr>
         <td>`expression`</td>
-        <td>`<cron expression>` (e.g. `*/5 12-23 * * *`)</td>
+        <td>`<str>` (e.g. `*/5 12-23 * * *`)</td>
         <td>Yes</td>
         <td>Valid cron expression</td>
     </tr>
