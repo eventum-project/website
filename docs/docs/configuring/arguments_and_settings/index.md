@@ -98,10 +98,4 @@ Following parameters can be used in json string passed to `--settings` argument:
         <td>`1.0`</td>
         <td>Minimal seconds of events batch lifetime to be written by output plugin</td>
     </tr>
-    <tr>
-        <td>`keyring_service_name`</td>
-        <td>`<string>`</td>
-        <td>`eventum`</td>
-        <td>Service name for keyring credentials storage</td>
-    </tr>
 </table>
