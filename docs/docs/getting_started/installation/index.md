@@ -79,6 +79,20 @@ poetry install
 poetry shell
 ```
 
+## Ensure installation
+
+To ensure that components are installed properly, check the version using following commands.
+
+For Eventum CLI:
+```bash
+eventum --version
+```
+
+For Eventum Studio:
+```bash
+eventum-studio --version
+```
+
 ---
 
 <p align="center">
