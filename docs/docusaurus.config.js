@@ -60,6 +60,12 @@ const config = {
           },
           {
             type: 'docSidebar',
+            sidebarId: 'configuringSidebar',
+            position: 'left',
+            label: 'Configuring',
+          },
+          {
+            type: 'docSidebar',
             sidebarId: 'pluginsSidebar',
             position: 'left',
             label: 'Plugins',

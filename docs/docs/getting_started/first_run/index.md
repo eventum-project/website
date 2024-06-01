@@ -31,8 +31,6 @@ To show help with description of arguments:
 eventum --help
 ```
 
----
+To understand how to configure Eventum and what should contain configuration file go to **[Configuring](../../configuring/config_file/)** part.
 
-<p align="center">
-    🛠 Let's find out how to configure Eventum. 🛠
-</p>
+---

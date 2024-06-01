@@ -16,6 +16,16 @@ const sidebars = {
       id: 'getting_started/first_run/index'
     }
   ],
+  configuringSidebar: [
+    {
+      type: 'doc',
+      id: 'configuring/config_file/index'
+    },
+    {
+      type: 'doc',
+      id: 'configuring/file_paths/index'
+    },
+  ],
   pluginsSidebar: [
     {
       type: 'category',
