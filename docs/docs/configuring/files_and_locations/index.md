@@ -4,7 +4,7 @@
 
 There are four basic types of file in Eventum:
 1. **Configuration file** - main configuration file which was reviewed in previous page, we specify it as an argument when starting Eventum
-2. **Sample file** - CSV sample used by Jinja event plugin to enrich events with random data
+2. **Sample file** - CSV sample used by Jinja event plugin to enrich events with specific data
 3. **Template file** - jinja template used by Jinja event plugin as well, it is used to define structure of events
 4. **Time pattern file** - yaml file used by Time patterns input plugin, it contains time distribution parameters
 
