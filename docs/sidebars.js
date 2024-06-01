@@ -23,7 +23,7 @@ const sidebars = {
     },
     {
       type: 'doc',
-      id: 'configuring/file_paths/index'
+      id: 'configuring/files_and_locations/index'
     },
   ],
   pluginsSidebar: [
