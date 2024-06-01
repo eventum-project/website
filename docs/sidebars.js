@@ -25,6 +25,14 @@ const sidebars = {
       type: 'doc',
       id: 'configuring/files_and_locations/index'
     },
+    {
+      type: 'doc',
+      id: 'configuring/arguments_and_settings/index'
+    },
+    {
+      type: 'doc',
+      id: 'configuring/keyring/index'
+    },
   ],
   pluginsSidebar: [
     {
