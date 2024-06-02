@@ -2,11 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Eventum-Generatives.github.io/Website/blog</id>
     <title>Eventum Blog</title>
-    <updated>2024-05-10T00:00:00.000Z</updated>
+    <updated>2024-06-02T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Eventum-Generatives.github.io/Website/blog"/>
     <subtitle>Eventum Blog</subtitle>
     <icon>https://Eventum-Generatives.github.io/Website/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[🎉 Eventum 1.0 is Released! 🎉]]></title>
+        <id>https://Eventum-Generatives.github.io/Website/blog/eventum-is-released</id>
+        <link href="https://Eventum-Generatives.github.io/Website/blog/eventum-is-released"/>
+        <updated>2024-06-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I'm thrilled to announce the release of Eventum 1.0 - the flexible event generator that brings a new level of flexibility and creativity.]]></summary>
+        <content type="html"><![CDATA[<p>I'm thrilled to announce the release of Eventum 1.0 - the flexible event generator that brings a new level of flexibility and creativity.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="background">Background<a href="https://eventum-generatives.github.io/Website/blog/eventum-is-released#background" class="hash-link" aria-label="Direct link to Background" title="Direct link to Background">​</a></h3>
+<p>I started working on this project in November 2023 as an alternative to the simple generator we had in our development team.</p>
+<p>Gradually, more complex use cases for the generator emerged, and it became increasingly difficult to achieve the required functionality. At one point, I realized I was ready to create something new and introduce it to the team.</p>
+<hr>
+<p>I have preserved many unforgettable events in Eventum that happened to me during the development period, and I hope this has made Eventum a bit more eventful 🔮</p>]]></content>
+        <author>
+            <name>Nikita Reznikov</name>
+            <uri>https://github.com/rnv812</uri>
+        </author>
+        <category label="release" term="release"/>
+        <category label="announce" term="announce"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>https://Eventum-Generatives.github.io/Website/blog/welcome</id>

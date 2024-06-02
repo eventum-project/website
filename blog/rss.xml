@@ -4,10 +4,25 @@
         <title>Eventum Blog</title>
         <link>https://Eventum-Generatives.github.io/Website/blog</link>
         <description>Eventum Blog</description>
-        <lastBuildDate>Fri, 10 May 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 02 Jun 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[🎉 Eventum 1.0 is Released! 🎉]]></title>
+            <link>https://Eventum-Generatives.github.io/Website/blog/eventum-is-released</link>
+            <guid>https://Eventum-Generatives.github.io/Website/blog/eventum-is-released</guid>
+            <pubDate>Sun, 02 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[I'm thrilled to announce the release of Eventum 1.0 - the flexible event generator that brings a new level of flexibility and creativity.]]></description>
+            <content:encoded><![CDATA[<p>I'm thrilled to announce the release of Eventum 1.0 - the flexible event generator that brings a new level of flexibility and creativity.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="background">Background<a href="https://eventum-generatives.github.io/Website/blog/eventum-is-released#background" class="hash-link" aria-label="Direct link to Background" title="Direct link to Background">​</a></h3>
+<p>I started working on this project in November 2023 as an alternative to the simple generator we had in our development team.</p>
+<p>Gradually, more complex use cases for the generator emerged, and it became increasingly difficult to achieve the required functionality. At one point, I realized I was ready to create something new and introduce it to the team.</p>
+<hr>
+<p>I have preserved many unforgettable events in Eventum that happened to me during the development period, and I hope this has made Eventum a bit more eventful 🔮</p>]]></content:encoded>
+            <category>release</category>
+            <category>announce</category>
+        </item>
         <item>
             <title><![CDATA[Welcome]]></title>
             <link>https://Eventum-Generatives.github.io/Website/blog/welcome</link>
