@@ -111,7 +111,13 @@ const sidebars = {
         },
       ]
     },
-  ]
+  ],
+  contentDesigningSidebar: [
+    {
+      type: 'doc',
+      id: 'content_designing/eventum_studio/index'
+    },
+  ],
 };
 
 export default sidebars;

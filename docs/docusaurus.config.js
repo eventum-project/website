@@ -71,6 +71,12 @@ const config = {
             label: 'Plugins',
           },
           {
+            type: 'docSidebar',
+            sidebarId: 'contentDesigningSidebar',
+            position: 'left',
+            label: 'Content designing',
+          },
+          {
             to: '/blog',
             label: 'Blog',
             position: 'right'
