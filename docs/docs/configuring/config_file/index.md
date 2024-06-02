@@ -93,7 +93,7 @@ There are two types of tokens:
 - `params` - passed as CLI argument
 - `secrets` - stored in keyring
 
-In configuration file you can refer them using `%{<token name>}` construction.
+In configuration file you can refer them using `${<token name>}` construction.
 
 Example usage:
 ```yaml

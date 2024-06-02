@@ -36,7 +36,7 @@ Supported modes: `sample`
     <tr>
         <td>`endpoint`</td>
         <td>`<bool>`</td>
-        <td>No, default is `False`</td>
+        <td>No, default is `True`</td>
         <td>Whether to include end point of interval</td>
     </tr>
 </table>
