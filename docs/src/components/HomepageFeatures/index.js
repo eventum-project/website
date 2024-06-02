@@ -21,7 +21,7 @@ const FeatureList = [
       <>
         With the power of <a href='https://jinja.palletsprojects.com/templates/'>Jinja</a>,
         it's easy to design event template that suits your case. Additionally,
-        advanced functionality enables you to save states, use samples, and run
+        advanced functionality enables you to persist states, use samples, and run
         subprocesses directly from templates - very handy, isn't it?
       </>
     ),
