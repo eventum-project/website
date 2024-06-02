@@ -28,12 +28,12 @@
     </tr>
     <tr>
         <td>`-s`, `--settings`</td>
-        <td>`<json string>`</td>
+        <td>`<plain json>`</td>
         <td>Application core settings. See table below with listed settings</td>
     </tr>
     <tr>
         <td>`-p`, `--params`</td>
-        <td>`<json string>`</td>
+        <td>`<plain json>`</td>
         <td>Parameters to use in configuration file as token values for `params`</td>
     </tr>
     <tr>
@@ -58,19 +58,19 @@ Following parameters can be used in json string passed to `--settings` argument:
     <th>Description</th>
     <tr>
         <td>`timezone`</td>
-        <td>`<zone name>` (e.g `Europe/Moscow`)</td>
+        <td>`<timezone>` (e.g `Europe/Moscow`)</td>
         <td>`UTC`</td>
         <td>Time zone of timestamps in events</td>
     </tr>
     <tr>
         <td>`timezone_field_name`</td>
-        <td>`<string>`</td>
+        <td>`<str>`</td>
         <td>`tz`</td>
         <td>Name of the variable in template with zone offset</td>
     </tr>
     <tr>
         <td>`timestamp_field_name`</td>
-        <td>`<string>`</td>
+        <td>`<str>`</td>
         <td>`timestamp`</td>
         <td>Name of the variable in template with timestamp</td>
     </tr>

@@ -22,7 +22,7 @@ event:
   samples:
     <sample name>:
       type: csv | items
-      source: <filename> | <items ...> 
+      source: <filename> | <list[item]> 
     ...
   
   mode: { all | any | chance | spin }
