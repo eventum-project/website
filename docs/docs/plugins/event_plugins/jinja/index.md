@@ -158,6 +158,26 @@ templates:
 
 ## Usage in templates
 
+### Predefined variables
+
+<table>
+    <th>Variable</th>
+    <th>Example value</th>
+    <th>Description</th>
+    <tr>
+        <td>`timestamp`</td>
+        <td>`2024-01-01T00:00:00`</td>
+        <td>Original timestamp of the event</td>
+    </tr>
+    <tr>
+        <td>`tz`</td>
+        <td>`+03:00`</td>
+        <td>Timezone of timestamp</td>
+    </tr>
+</table>
+
+Variable names can be adjusted via [core settings](../../../configuring/arguments_and_settings/#core-settings).
+
 ### State API
 
 There are two scopes of states in templates:
