@@ -30,7 +30,7 @@ Eventum supports two time modes:
 - **Live mode** - in this case, each event will be published as the present time passes event timestamp
 
 ### Scheduling methods
-With the variety of input plugins you can flexibly adjust when to generate the events. For example, in case when events linearly spaced in time you can use **Timer input plugin** for live mode and **Linspace input plugin** for sample mode. For more detailed uncomplicated scheduling the **Cron input plugin** is a great choice. If you want maximum flexibility, then just use **Time patterns input plugin** which offers you to operate probability distribution functions and mix them if needed. There are many others plugins, you can explore all them [here](../../plugins/).
+With the variety of input plugins you can flexibly adjust when to generate the events. For example, in case when events linearly spaced in time you can use **Timer input plugin** for live mode and **Linspace input plugin** for sample mode. For more detailed uncomplicated scheduling the **Cron input plugin** is a great choice. If you want maximum flexibility, then just use **Time patterns input plugin** which offers you to operate probability distribution functions and mix them if needed. There are many others plugins, you can explore all them [here](../../plugins/). Furthermore you can combine different input plugins.
 
 ## Event Templates
 ### Stateful rendering

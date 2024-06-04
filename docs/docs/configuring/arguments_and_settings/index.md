@@ -98,4 +98,16 @@ Following parameters can be used in json string passed to `--settings` argument:
         <td>`1.0`</td>
         <td>Minimal seconds of events batch lifetime to be written by output plugin</td>
     </tr>
+    <tr>
+        <td>`input_queue_max_size`</td>
+        <td>`<int>`</td>
+        <td>`10,000,000`</td>
+        <td>Max size of input queue, input plugins are blocked if this queue is full</td>
+    </tr>
+    <tr>
+        <td>`event_queue_max_size`</td>
+        <td>`<int>`</td>
+        <td>`1,000,000`</td>
+        <td>Max size of event queue, event plugin is blocked if this queue is full</td>
+    </tr>
 </table>

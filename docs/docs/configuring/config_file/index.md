@@ -11,9 +11,10 @@ The generic structure of the file is the following:
 ```yaml
 // highlight-next-line
 input:
-  <input plugin name>:
-    <parameter name>: <value>
-    ...
+  - <input plugin name>:
+      <parameter name>: <value>
+      ...
+  - ...
 
 // highlight-next-line
 event:
@@ -41,16 +42,16 @@ output:
   - ...
 ```
 
-Configuration can have only one input plugin and unlimited number of output plugins. Therefore input plugin name is specified as a key, and output plugin names as list elements. Specifying the name of event plugin is omitted since Jinja event plugin is the only one and it's used by default, so in event section we see its parameters straightaway.
+Configuration can have multiple input plugins and multiple output plugins. Specifying the name of event plugin is omitted since Jinja event plugin is the only one and it's used by default, so in event section we see its parameters straightaway.
 
 ## Example
 Example simple config looks like this:
 
 ```yaml
 input:
-  cron:     1️⃣
-    expression: "*/5 * * * *"
-    count: 1
+  - cron:       1️⃣
+      expression: "*/5 * * * *"
+      count: 1
 
 event:
   params: { "env": "dev", "status": true }    2️⃣
@@ -77,7 +78,7 @@ output:         7️⃣
       format: "original"
 ```
 
-1. As input plugin we use `cron` with parameters `expression` and `count`.
+1. As input plugin we use only `cron` with parameters `expression` and `count`.
 2. Parameters `env` and `status` will be accessible in templates.
 3. Sample `users` can be used in template with data defined in csv file.
 4. Sample `hosts` can be used in template with data defined directly in configuration.
