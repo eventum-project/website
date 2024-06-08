@@ -33,6 +33,10 @@ const sidebars = {
       type: 'doc',
       id: 'configuring/keyring/index'
     },
+    {
+      type: 'doc',
+      id: 'configuring/compose/index'
+    },
   ],
   pluginsSidebar: [
     {
