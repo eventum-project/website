@@ -373,6 +373,16 @@ Modules should be placed into `event_plugins/jinja_modules` directory of eventum
         <td>Return string of specified `size` that contains random ASCII letters</td>
     </tr>
     <tr>
+        <td>`string.digits`</td>
+        <td>
+            <ul>
+                <li>`size: <int>`</li>
+            </ul>
+        </td>
+        <td>`<str>`</td>
+        <td>Return string of specified `size` that contains random digits characters</td>
+    </tr>
+    <tr>
         <td>`string.punctuation`</td>
         <td>
             <ul>
