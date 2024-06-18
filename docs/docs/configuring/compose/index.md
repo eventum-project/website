@@ -40,7 +40,7 @@ generators:
     settings: { "timezone": "Europe/Moscow" }
 
   winlog_iam:
-    config: winlog_auth.yml
+    config: winlog_iam.yml
     time_mode: live
     params: { "new_accounts_count": 7 }
     settings: { }
