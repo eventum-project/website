@@ -78,6 +78,18 @@ Each key in samples mapping is a sample alias and value is a following object:
         <td>Type of sample</td>
     </tr>
     <tr>
+        <td>`header`</td>
+        <td>`<bool>`</td>
+        <td>No, actual only with `csv` type</td>
+        <td>Whether the csv samples includes header</td>
+    </tr>
+    <tr>
+        <td>`delimiter`</td>
+        <td>`<str>`</td>
+        <td>No, default is `,`</td>
+        <td>Whether the csv samples includes header</td>
+    </tr>
+    <tr>
         <td>`source`</td>
         <td>`<str>` | `<list[str]>`</td>
         <td>Yes</td>
