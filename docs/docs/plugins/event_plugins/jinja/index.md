@@ -81,7 +81,7 @@ Each key in samples mapping is a sample alias and value is a following object:
         <td>`header`</td>
         <td>`<bool>`</td>
         <td>No, applicable only with `csv` type, default is `False`</td>
-        <td>Whether the csv samples includes header</td>
+        <td>Whether the csv sample includes header</td>
     </tr>
     <tr>
         <td>`delimiter`</td>
