@@ -276,6 +276,8 @@ Modules should be placed into `event_plugins/jinja_modules` directory of eventum
 
 #### Module `rand`
 
+Module provides functions to generate random values.
+
 <table>
     <th>Function</th>
     <th>Parameters</th>
@@ -462,10 +464,39 @@ Modules should be placed into `event_plugins/jinja_modules` directory of eventum
         <td>`<str>`</td>
         <td>Return random MD5 hash</td>
     </tr>
-     <tr>
+    <tr>
         <td>`crypto.sha256`</td>
         <td>-</td>
         <td>`<str>`</td>
         <td>Return random SHA-256 hash</td>
+    </tr>
+    <tr>
+        <td>`datetime.timestamp`</td>
+        <td>
+            <ul>
+                <li>`start: <str>`</li>
+                <li>`end: <str>`</li>
+            </ul>
+        </td>
+        <td>`<str>`</td>
+        <td>Return random timestamp in range [start; end]</td>
+    </tr>
+</table>
+
+
+#### Module `convert`
+
+Module provides functions to convert values to different types.
+
+<table>
+    <th>Function</th>
+    <th>Parameters</th>
+    <th>Returned value</th>
+    <th>Description</th>
+    <tr>
+        <td>`to_datetime`</td>
+        <td>`timestamp: <str>`</td>
+        <td>`<datetime>`</td>
+        <td>Convert string representing ISO8601 timestamp to [datetime](https://docs.python.org/3/library/datetime.html#datetime-objects) object.</td>
     </tr>
 </table>
