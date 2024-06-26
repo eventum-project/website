@@ -284,6 +284,12 @@ Module provides functions to generate random values.
     <th>Returned value</th>
     <th>Description</th>
     <tr>
+        <td>`shuffle`</td>
+        <td>`items: <Sequence[T]>`</td>
+        <td>`<T>`</td>
+        <td>Return shuffled sequence of items</td>
+    </tr>
+    <tr>
         <td>`choice`</td>
         <td>`items: <Sequence[T]>`</td>
         <td>`<T>`</td>
@@ -484,19 +490,11 @@ Module provides functions to generate random values.
 </table>
 
 
-#### Module `convert`
+#### Module `py`
 
-Module provides functions to convert values to different types.
+Module provides classes from python standard library.
 
-<table>
-    <th>Function</th>
-    <th>Parameters</th>
-    <th>Returned value</th>
-    <th>Description</th>
-    <tr>
-        <td>`to_datetime`</td>
-        <td>`timestamp: <str>`</td>
-        <td>`<datetime>`</td>
-        <td>Convert string representing ISO8601 timestamp to [datetime](https://docs.python.org/3/library/datetime.html#datetime-objects) object.</td>
-    </tr>
-</table>
+List of classes:
+- `datetime`
+- `time`
+- `timedelta`
