@@ -39,7 +39,7 @@ Event plugin for producing events using Jinja template engine.
     </tr>
     <tr>
         <td>`templates`</td>
-        <td>`<TemplatesMapping>`</td>
+        <td>`<TemplatesList>`</td>
         <td>Yes</td>
         <td>Templates to render</td>
     </tr>
@@ -117,9 +117,9 @@ hosts:
     - "host3"
 ```
 
-### Templates mapping
+### Templates list
 
-Each key in templates mapping is a template alias and value is a following object:
+Each item in templates list is a mapping where key is a template alias and value is a following object:
 <table>
     <th>Parameter</th>
     <th>Expected value</th>
@@ -142,13 +142,13 @@ Each key in templates mapping is a template alias and value is a following objec
 Example
 
 ```yaml
-auth_failed:
-  template: "auth_failed.json.jinja"
-  chance: 0.05
+- auth_failed:
+    template: "auth_failed.json.jinja"
+    chance: 0.05
 
-auth_success:
-  template: "auth_success.json.jinja"
-  chance: 0.95
+- auth_success:
+    template: "auth_success.json.jinja"
+    chance: 0.95
 ```
 
 ## Example
@@ -164,8 +164,8 @@ samples:
 mode: "all"
 
 templates:
-  test:
-    template: "test.jinja"
+  - test:
+      template: "test.jinja"
 ```
 
 ## Usage in templates
@@ -183,7 +183,7 @@ templates:
     </tr>
     <tr>
         <td>`tz`</td>
-        <td>`+03:00`</td>
+        <td>`+0300`</td>
         <td>Timezone of timestamp</td>
     </tr>
 </table>

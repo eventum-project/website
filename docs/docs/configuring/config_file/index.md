@@ -29,9 +29,9 @@ event:
   mode: { all | any | chance | spin }
   
   templates:
-    <template alias>:
-      template: <template path>
-      [chance: <chance>]
+    - <template alias>:
+        template: <template path>
+        [chance: <chance>]
     ...
 
 // highlight-next-line
@@ -67,8 +67,8 @@ event:
   mode: all     5️⃣
   
   templates:    6️⃣
-    logon:
-      template: "logon_events.json.jinja"
+    - logon:
+        template: "logon_events.json.jinja"
 
 output:         7️⃣
   - file:
