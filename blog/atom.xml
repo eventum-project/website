@@ -2,11 +2,38 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Eventum-Generatives.github.io/Website/blog</id>
     <title>Eventum Blog</title>
-    <updated>2024-06-08T00:00:00.000Z</updated>
+    <updated>2024-07-07T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Eventum-Generatives.github.io/Website/blog"/>
     <subtitle>Eventum Blog</subtitle>
     <icon>https://Eventum-Generatives.github.io/Website/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[🎉 Eventum 1.1 is Released! 🎉]]></title>
+        <id>https://Eventum-Generatives.github.io/Website/blog/eventum-1.1</id>
+        <link href="https://Eventum-Generatives.github.io/Website/blog/eventum-1.1"/>
+        <updated>2024-07-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Change log]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="change-log">Change log<a href="https://eventum-generatives.github.io/Website/blog/eventum-1.1#change-log" class="hash-link" aria-label="Direct link to Change log" title="Direct link to Change log">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="new-features">New features<a href="https://eventum-generatives.github.io/Website/blog/eventum-1.1#new-features" class="hash-link" aria-label="Direct link to New features" title="Direct link to New features">​</a></h3>
+<ul>
+<li>Input plugin tags feature is added</li>
+<li>Logging was separated into different files individually for configuration / compose file</li>
+<li>New module <code>py</code> was added for Jinja event plugin</li>
+<li>New function <code>shuffle</code> was added to <code>rand</code> module for Jinja event plugin</li>
+<li>New function <code>datetime.timestamp</code> was added to <code>rand</code> module for Jinja event plugin</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug fixes<a href="https://eventum-generatives.github.io/Website/blog/eventum-1.1#bug-fixes" class="hash-link" aria-label="Direct link to Bug fixes" title="Direct link to Bug fixes">​</a></h3>
+<ul>
+<li>Bulk request response check was added in Opensearch output plugin</li>
+<li>Timestamp type in template was fixed to be a string</li>
+</ul>]]></content>
+        <author>
+            <name>Nikita Reznikov</name>
+            <uri>https://github.com/rnv812</uri>
+        </author>
+        <category label="release" term="release"/>
+        <category label="announce" term="announce"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Eventum Compose]]></title>
         <id>https://Eventum-Generatives.github.io/Website/blog/compose</id>
