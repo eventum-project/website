@@ -69,6 +69,12 @@ Following parameters can be used in json string passed to `--settings` argument:
         <td>Name of the variable in template with zone offset</td>
     </tr>
     <tr>
+        <td>`tags_field_name`</td>
+        <td>`<str>`</td>
+        <td>`tags`</td>
+        <td>Name of the variable in template with input plugin tags</td>
+    </tr>
+    <tr>
         <td>`timestamp_field_name`</td>
         <td>`<str>`</td>
         <td>`timestamp`</td>

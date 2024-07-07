@@ -186,6 +186,11 @@ templates:
         <td>`+0300`</td>
         <td>Timezone of timestamp</td>
     </tr>
+    <tr>
+        <td>`tags`</td>
+        <td>`["tag1", "tag2", "tag3"]`</td>
+        <td>Tags list of input plugin that triggered event rendering</td>
+    </tr>
 </table>
 
 Variable names can be adjusted via [core settings](../../../configuring/arguments_and_settings/#core-settings).

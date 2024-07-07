@@ -13,6 +13,7 @@ The generic structure of the file is the following:
 input:
   - <input plugin name>:
       <parameter name>: <value>
+      [tags: <tags list>]
       ...
   - ...
 
@@ -52,6 +53,7 @@ input:
   - cron:       1️⃣
       expression: "*/5 * * * *"
       count: 1
+      tags: ["basic"]
 
 event:
   params: { "env": "dev", "status": true }    2️⃣

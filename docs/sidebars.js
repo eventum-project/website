@@ -23,6 +23,10 @@ const sidebars = {
     },
     {
       type: 'doc',
+      id: 'configuring/tags/index'
+    },
+    {
+      type: 'doc',
       id: 'configuring/files_and_locations/index'
     },
     {
