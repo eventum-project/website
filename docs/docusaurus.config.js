@@ -82,6 +82,11 @@ const config = {
             position: 'right'
           },
           {
+            type: 'docsVersionDropdown',
+            position: 'right',
+            dropdownActiveClassDisabled: true,
+          },
+          {
             position: 'right',
             href: 'https://github.com/Eventum-Generatives/EventumCore',
             className: 'header-github-link',
