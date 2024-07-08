@@ -499,7 +499,7 @@ Module provides functions to generate random values.
 
 Module provides classes from python standard library.
 
-List of classes:
+Classes from module `datetime`:
 - `datetime`
 - `time`
 - `timedelta`
