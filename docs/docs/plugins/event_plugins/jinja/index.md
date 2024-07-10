@@ -290,9 +290,9 @@ Module provides functions to generate random values.
     <th>Description</th>
     <tr>
         <td>`shuffle`</td>
-        <td>`items: <Sequence[T]>`</td>
-        <td>`<T>`</td>
-        <td>Return shuffled sequence of items</td>
+        <td>`items: <Sequence[T]> | <str>`</td>
+        <td>`<list[T]> | <str>`</td>
+        <td>Return shuffled copy of sequence </td>
     </tr>
     <tr>
         <td>`choice`</td>
