@@ -94,7 +94,7 @@ You can parametrize your configuration and hide sensitive data like passwords us
 
 There are two types of tokens:
 - `params` - passed as CLI argument
-- `secrets` - stored in keyring
+- `secrets` - stored in [keyring](../keyring/index.md)
 
 In configuration file you can refer them using `${<token name>}` construction.
 
