@@ -17,7 +17,7 @@ Supported modes: `live`, `sample`
     <th>Description</th>
     <tr>
         <td>`source`</td>
-        <td>`<list[datetime]>` | `str`</td>
+        <td>`<list[datetime]>` | `<str>`</td>
         <td>Yes</td>
         <td>List of timestamps or path to file with new line separated timestamps</td>
     </tr>
