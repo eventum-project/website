@@ -62,13 +62,13 @@ Installation using source code requires **[Poetry](https://python-poetry.org/)**
 
 To clone Eventum CLI repo:
 ```bash
-git clone https://github.com/Eventum-Generatives/EventumCLI.git
+git clone https://github.com/eventum-project/eventum-cli.git
 cd EventumCLI
 ```
 
 To clone Eventum Studio repo:
 ```bash
-git clone https://github.com/Eventum-Generatives/EventumStudio.git
+git clone https://github.com/eventum-project/eventum-studio.git
 cd EventumStudio
 ```
 
