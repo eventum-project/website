@@ -8,11 +8,11 @@ const config = {
   tagline: 'Flexible event generator',
   favicon: 'img/favicon.ico',
 
-  url: 'https://Eventum-Generatives.github.io',
-  baseUrl: '/Website/',
+  url: 'https://eventum-project.github.io',
+  baseUrl: '/website/',
 
-  organizationName: 'Eventum-Generatives',
-  projectName: 'Website',
+  organizationName: 'eventum-project',
+  projectName: 'website',
   deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
@@ -83,7 +83,7 @@ const config = {
           },
           {
             position: 'right',
-            href: 'https://github.com/Eventum-Generatives/EventumCore',
+            href: 'https://github.com/eventum-project',
             className: 'header-github-link',
             'aria-label': 'GitHub repository',
           },
