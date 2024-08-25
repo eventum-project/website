@@ -2,24 +2,24 @@
 
 ## Managing keyring
 
-Keyring is used as credentials storage for sensitive data that you need to provide to configuration.
+Keyring is a credentials storage for sensitive data. Eventum provides its own keyring management CLI tool `eventum-keyring` that uses encrypted file as a backend.
 
 ### Setting the value
 
 ```bash
-keyring set eventum <token name>
+eventum-keyring set <key name>
 ```
 
 ### Getting the value
 
 ```bash
-keyring get eventum <token name>
+eventum-keyring get <key name>
 ```
 
-### Deleting the value
+### Removing the value
 
 ```bash
-keyring del eventum <token name>
+eventum-keyring remove <key name>
 ```
 
 ## Keyring password
@@ -27,17 +27,3 @@ keyring del eventum <token name>
 When you run keyring for the first time it will prompt you the password for the new encrypted storage.
 
 Each time Eventum needs to retrieve data from keyring it will prompt you that password to get access. If you want to provide the keyring password to Eventum in non-interactive way you can set environment variable `EVENTUM_KEYRING_PASSWORD` with the value of the password.
-
-## Troubleshooting
-
-### Error `No recommended backend was available`
-
-The error occurs when there is no available keyring backend is found. Eventum uses `keyrings-cryptfile` package as keyring backend.
-
-:::tip[Solution]
-Install keyring backend for used python version with next commands:
-```bash
-python3.11 -m pip install keyring
-python3.11 -m pip install keyrings-cryptfile
-```
-:::

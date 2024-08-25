@@ -25,13 +25,13 @@ Supported modes: `live`
         <td>`count`</td>
         <td>`<int>`</td>
         <td>Yes</td>
-        <td>Number of events to generate after time has come</td>
+        <td>Number of events to generate after time has passed</td>
     </tr>
     <tr>
         <td>`repeat`</td>
-        <td>`<bool>`</td>
-        <td>Yes</td>
-        <td>Whether to restart the timer after the cycle</td>
+        <td>`<int>`</td>
+        <td>No, repeat infinitely if not specified</td>
+        <td>Number of cycles to repeat generation</td>
     </tr>
 </table>
 
@@ -39,7 +39,7 @@ Supported modes: `live`
 
 ```yaml
 timer:
-  seconds: 0.5
+  seconds: 1
   count: 1
-  repeat: true
+  repeat: 3600
 ```
