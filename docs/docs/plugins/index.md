@@ -6,6 +6,6 @@ To use specific plugin, in configuration file you have to refer to it by its nam
 
 ## Plugins development
 
-To develop new custom plugins you can explore example implementations in the official **[Eventum plugins repository](https://github.com/Eventum-Generatives/EventumPlugins)**.
+To develop new custom plugins you can explore example implementations in the official **[Eventum plugins repository](https://github.com/eventum-project/EventumPlugins)**.
 
 You are welcome with pull request ✨💫
