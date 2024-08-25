@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Eventum Blog</title>
-        <link>https://Eventum-Generatives.github.io/Website/blog</link>
+        <link>https://eventum-project.github.io/website/blog</link>
         <description>Eventum Blog</description>
         <lastBuildDate>Sun, 07 Jul 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,12 +10,12 @@
         <language>en</language>
         <item>
             <title><![CDATA[🎉 Eventum 1.1 is Released! 🎉]]></title>
-            <link>https://Eventum-Generatives.github.io/Website/blog/eventum-1.1</link>
-            <guid>https://Eventum-Generatives.github.io/Website/blog/eventum-1.1</guid>
+            <link>https://eventum-project.github.io/website/blog/eventum-1.1</link>
+            <guid>https://eventum-project.github.io/website/blog/eventum-1.1</guid>
             <pubDate>Sun, 07 Jul 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Changelog]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="changelog">Changelog<a href="https://eventum-generatives.github.io/Website/blog/eventum-1.1#changelog" class="hash-link" aria-label="Direct link to Changelog" title="Direct link to Changelog">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-new-features">🚀 New Features<a href="https://eventum-generatives.github.io/Website/blog/eventum-1.1#-new-features" class="hash-link" aria-label="Direct link to 🚀 New Features" title="Direct link to 🚀 New Features">​</a></h3>
+            <description><![CDATA[Change log]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="change-log">Change log<a href="https://eventum-project.github.io/website/blog/eventum-1.1#change-log" class="hash-link" aria-label="Direct link to Change log" title="Direct link to Change log">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="new-features">New features<a href="https://eventum-project.github.io/website/blog/eventum-1.1#new-features" class="hash-link" aria-label="Direct link to New features" title="Direct link to New features">​</a></h3>
 <ul>
 <li>Input plugin tags feature is added</li>
 <li>Logging was separated into different files individually for configuration / compose file</li>
@@ -23,7 +23,7 @@
 <li>New function <code>shuffle</code> was added to <code>rand</code> module for Jinja event plugin</li>
 <li>New function <code>datetime.timestamp</code> was added to <code>rand</code> module for Jinja event plugin</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-bug-fixes">🐛 Bug Fixes<a href="https://eventum-generatives.github.io/Website/blog/eventum-1.1#-bug-fixes" class="hash-link" aria-label="Direct link to 🐛 Bug Fixes" title="Direct link to 🐛 Bug Fixes">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug fixes<a href="https://eventum-project.github.io/website/blog/eventum-1.1#bug-fixes" class="hash-link" aria-label="Direct link to Bug fixes" title="Direct link to Bug fixes">​</a></h3>
 <ul>
 <li>Bulk request response check was added in Opensearch output plugin</li>
 <li>Timestamp type in template was fixed to be a string</li>
@@ -33,8 +33,8 @@
         </item>
         <item>
             <title><![CDATA[Eventum Compose]]></title>
-            <link>https://Eventum-Generatives.github.io/Website/blog/compose</link>
-            <guid>https://Eventum-Generatives.github.io/Website/blog/compose</guid>
+            <link>https://eventum-project.github.io/website/blog/compose</link>
+            <guid>https://eventum-project.github.io/website/blog/compose</guid>
             <pubDate>Sat, 08 Jun 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Since version 1.0.10 of Eventum CLI it's available to run multiple generators at once using compose files via eventum-compose tool!]]></description>
             <content:encoded><![CDATA[<p>Since version 1.0.10 of Eventum CLI it's available to run multiple generators at once using compose files via <code>eventum-compose</code> tool!</p>
@@ -48,8 +48,8 @@
         </item>
         <item>
             <title><![CDATA[Multi inputs]]></title>
-            <link>https://Eventum-Generatives.github.io/Website/blog/multi-inputs</link>
-            <guid>https://Eventum-Generatives.github.io/Website/blog/multi-inputs</guid>
+            <link>https://eventum-project.github.io/website/blog/multi-inputs</link>
+            <guid>https://eventum-project.github.io/website/blog/multi-inputs</guid>
             <pubDate>Wed, 05 Jun 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Since version 1.0.7 of Eventum CLI it's available to specify multiple input plugins in configuration!]]></description>
             <content:encoded><![CDATA[<p>Since version 1.0.7 of Eventum CLI it's available to specify multiple input plugins in configuration!</p>
@@ -61,12 +61,12 @@
         </item>
         <item>
             <title><![CDATA[🎉 Eventum 1.0 is Released! 🎉]]></title>
-            <link>https://Eventum-Generatives.github.io/Website/blog/eventum-is-released</link>
-            <guid>https://Eventum-Generatives.github.io/Website/blog/eventum-is-released</guid>
+            <link>https://eventum-project.github.io/website/blog/eventum-is-released</link>
+            <guid>https://eventum-project.github.io/website/blog/eventum-is-released</guid>
             <pubDate>Sun, 02 Jun 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[I'm thrilled to announce the release of Eventum 1.0 - the flexible event generator that brings a new level of flexibility and creativity.]]></description>
             <content:encoded><![CDATA[<p>I'm thrilled to announce the release of Eventum 1.0 - the flexible event generator that brings a new level of flexibility and creativity.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="background">Background<a href="https://eventum-generatives.github.io/Website/blog/eventum-is-released#background" class="hash-link" aria-label="Direct link to Background" title="Direct link to Background">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="background">Background<a href="https://eventum-project.github.io/website/blog/eventum-is-released#background" class="hash-link" aria-label="Direct link to Background" title="Direct link to Background">​</a></h3>
 <p>I started working on this project in November 2023 as an alternative to the simple generator we had in our development team.</p>
 <p>Gradually, more complex use cases for the generator emerged, and it became increasingly difficult to achieve the required functionality. At one point, I realized I was ready to create something new and introduce it to the team.</p>
 <hr>
@@ -76,8 +76,8 @@
         </item>
         <item>
             <title><![CDATA[Welcome]]></title>
-            <link>https://Eventum-Generatives.github.io/Website/blog/welcome</link>
-            <guid>https://Eventum-Generatives.github.io/Website/blog/welcome</guid>
+            <link>https://eventum-project.github.io/website/blog/welcome</link>
+            <guid>https://eventum-project.github.io/website/blog/welcome</guid>
             <pubDate>Fri, 10 May 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Welcome to Eventum Blog! News about Eventum will be posted here.]]></description>
             <content:encoded><![CDATA[<p>Welcome to Eventum Blog! News about Eventum will be posted here.</p>]]></content:encoded>
