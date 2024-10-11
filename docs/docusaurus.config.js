@@ -30,6 +30,10 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
+          lastVersion: 'current',
+          versions: {
+            current: { label: '2.0' },
+          }
         },
         blog: {
           showReadingTime: true,
