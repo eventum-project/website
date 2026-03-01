@@ -1,16 +1,11 @@
 import { defineConfig } from 'vitepress'
-import sitemap from 'vite-plugin-sitemap'
 
 export default defineConfig({
     title: "Eventum",
     description: "Infrastructure-grade, security-first logging for Node.js powered by Rust.",
     cleanUrls: true,
-    vite: {
-        plugins: [
-            sitemap({ 
-                hostname: 'https://eventum.sh',
-            })
-        ]
+    sitemap: {
+        hostname: 'https://eventum.sh'
     },
     themeConfig: {
         logo: 'https://raw.githubusercontent.com/eventum-project/eventum/main/eventum-banner.png',
