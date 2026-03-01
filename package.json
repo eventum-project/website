@@ -1,0 +1,35 @@
+{
+  "name": "eventum-docs",
+  "version": "0.1.0",
+  "description": "Official documentation for Eventum — Infrastructure-grade, security-first logging for Node.js powered by Rust.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eventum-project/website.git"
+  },
+  "keywords": [
+    "eventum",
+    "logging",
+    "documentation",
+    "rust",
+    "nodejs",
+    "infrastructure"
+  ],
+  "author": "Dmytro Polhul",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eventum-project/eventum/issues"
+  },
+  "homepage": "https://eventum.sh",
+  "devDependencies": {
+    "vite-plugin-sitemap": "^0.8.2",
+    "vitepress": "^1.6.4",
+    "vue": "^3.5.13"
+  }
+}
