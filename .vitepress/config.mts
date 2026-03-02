@@ -1,9 +1,15 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig, type HeadConfig } from 'vitepress'
+
+const head: HeadConfig[] = []
+if (process.env.CF_ANALYTICS_TOKEN) {
+    head.push(['script', { defer: 'true', src: 'https://static.cloudflareinsights.com/beacon.min.js', 'data-cf-beacon': `{"token": "${process.env.CF_ANALYTICS_TOKEN}"}` }])
+}
 
 export default defineConfig({
     title: "Eventum",
     description: "Infrastructure-grade, security-first logging for Node.js powered by Rust.",
     cleanUrls: true,
+    head,
     sitemap: {
         hostname: 'https://eventum.sh'
     },
