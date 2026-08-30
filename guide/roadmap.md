@@ -10,6 +10,7 @@ We prioritize correctness over speed and stability over features. The project is
 
 - [x] **Native I/O**: Reliable log writing via Rust background threads.
 - [x] **File Management**: Daily and size-based rotation logic.
+- [x] **Prebuilt Binaries**: Published for all eight targets, including Windows x64 and arm64.
 - [ ] **Graceful Exit**: Ensuring 100% log delivery and clean thread shutdown during process termination.
 - [ ] **Error Handling**: Basic native handling for system-level I/O errors.
 
@@ -17,8 +18,13 @@ We prioritize correctness over speed and stability over features. The project is
 
 **Focus:** Shifting CPU-intensive tasks from JavaScript to Native.
 
-- [ ] **Native Sanitization**: Implementing the recursive object crawler and PII masking directly in Rust.
-- [ ] **Native Regex Engine**: Using Rust’s regex for high-speed pattern-based data protection.
+> [!NOTE]
+> Native sanitization and the Rust regex engine landed ahead of schedule in
+> **v0.1.0-alpha.8**. Sanitization now runs inside the native callback, and the JavaScript
+> entry points are thin platform loaders.
+
+- [x] **Native Sanitization**: Implementing the recursive object crawler and PII masking directly in Rust.
+- [x] **Native Regex Engine**: Using Rust’s regex for high-speed pattern-based data protection.
 - [ ] **Performance Optimization**: Eliminating JS-side bottlenecks and minimizing memory allocations during serialization.
 
 ## v0.3.x — Ecosystem & Polish
