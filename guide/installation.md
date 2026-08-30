@@ -18,19 +18,33 @@ pnpm add eventum
 
 :::
 
-## Windows support
+No compiler, no Rust toolchain, no build step. Eventum ships prebuilt native binaries and
+your package manager downloads only the one matching your platform.
 
-> [!WARNING]
-> Prebuilt binaries for Windows are temporarily unavailable due to npm publishing restrictions.
+## Supported platforms
 
-Windows users can build from source using:
+Prebuilt binaries are published for all eight targets below, each signed with
+[npm provenance](https://docs.npmjs.com/generating-provenance-statements):
 
-- Rust (stable toolchain)
+| Operating system | x64 | arm64 |
+| ---------------- | :-: | :---: |
+| macOS            | ✅  |  ✅   |
+| Linux (glibc)    | ✅  |  ✅   |
+| Linux (musl)     | ✅  |  ✅   |
+| Windows          | ✅  |  ✅   |
+
+Windows prebuilt binaries are available as of **v0.1.0-alpha.8** — Windows users install
+exactly like everyone else, with no Visual Studio Build Tools required.
+
+## Requirements
+
 - Node.js >= 18
-- Visual Studio Build Tools
 
-Run:
+## Building from source
 
-```bash
-npm install
-```
+You should not need this, but if no prebuilt binary matches your platform, Eventum falls
+back to compiling the native addon during `npm install`. That path requires:
+
+- [Rust](https://rustup.rs) (stable toolchain)
+- A C/C++ toolchain — Visual Studio Build Tools on Windows, Xcode Command Line Tools on
+  macOS, or `build-essential` on Linux
